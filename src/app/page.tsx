@@ -12,7 +12,7 @@ export default function Home() {
           Menu3D
         </h1>
         <p className="text-lg md:text-xl text-slate-500 font-light leading-relaxed">
-          The premium standard for digital dining. See exactly what you'll be served with our photorealistic visual menus.
+          The premium standard for digital dining. See exactly what you&apos;ll be served with our photorealistic visual menus.
         </p>
         <div className="pt-6">
           <Link href="/restaurants" className="inline-block bg-slate-900 text-white font-medium px-8 py-3.5 rounded-2xl shadow-sm hover:bg-slate-800 transition-colors text-base w-full sm:w-auto">

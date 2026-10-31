@@ -108,7 +108,7 @@ export default function PartnerPage() {
           
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4 tracking-tight">Ready to Upgrade?</h2>
-            <p className="text-slate-600 text-lg">Leave your details and we'll reach out to discuss how we can bring your menu to the next dimension.</p>
+            <p className="text-slate-600 text-lg">Leave your details and we&apos;ll reach out to discuss how we can bring your menu to the next dimension.</p>
           </div>
 
           <form className="space-y-6 max-w-2xl mx-auto" onSubmit={(e) => { e.preventDefault(); alert("Partner request form submitted!"); }}>

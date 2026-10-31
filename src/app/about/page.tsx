@@ -7,7 +7,7 @@ export default function AboutPage() {
         <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-4">About Menu3D</h1>
         <p className="text-lg text-slate-600 leading-relaxed">
           We believe that dining starts long before you take your first bite. 
-          Menu3D is on a mission to completely eliminate food envy and menu confusion by bringing photorealistic 3D menus to everyone's fingertips.
+          Menu3D is on a mission to completely eliminate food envy and menu confusion by bringing photorealistic 3D menus to everyone&apos;s fingertips.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
       <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
         <h3 className="font-bold mb-2">Our Vision for the Future</h3>
         <p className="text-slate-600 text-sm">
-          While we're currently starting with simple dish previews, our ultimate goal expands into AR table interactions, direct integration with POS systems, and personalized dining recommendations.
+          While we&apos;re currently starting with simple dish previews, our ultimate goal expands into AR table interactions, direct integration with POS systems, and personalized dining recommendations.
         </p>
       </div>
       

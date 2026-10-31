@@ -1,7 +1,9 @@
 'use client';
 
 import Script from 'next/script';
-import { useState, useEffect } from 'react';
+import { useSyncExternalStore } from 'react';
+
+const emptySubscribe = () => () => {};
 
 interface Props {
   modelUrl: string;
@@ -10,11 +12,11 @@ interface Props {
 }
 
 export default function Dish3DViewer({ modelUrl, posterUrl, altText }: Props) {
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isMounted = useSyncExternalStore(
+    emptySubscribe,
+    () => true,
+    () => false
+  );
 
   if (!isMounted) {
     return (
