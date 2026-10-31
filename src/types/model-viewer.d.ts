@@ -1,22 +1,21 @@
-// Extend JSX IntrinsicElements to support the model-viewer web component
-declare global {
+import type React from 'react';
+
+// Extend React 19 JSX IntrinsicElements to support the model-viewer web component
+declare module 'react' {
   namespace JSX {
     interface IntrinsicElements {
       'model-viewer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
-        src: string;
-        alt?: string;
-        ar?: boolean;
-        'ar-modes'?: string;
-        'environment-image'?: string;
+        src?: string;
         poster?: string;
-        'seamless-poster'?: boolean;
+        alt?: string;
         'shadow-intensity'?: string;
         'camera-controls'?: boolean;
         'auto-rotate'?: boolean;
-        [key: string]: any;
+        ar?: boolean;
+        'ar-modes'?: string;
+        class?: string;
+        'camera-orbit'?: string;
       };
     }
   }
 }
-
-export {};

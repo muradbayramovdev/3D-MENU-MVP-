@@ -21,6 +21,8 @@ A mobile-first MVP of a restaurant discovery platform that turns flat menus into
 | Styling | [Tailwind CSS v4](https://tailwindcss.com/) |
 | 3D / AR | [Google `<model-viewer>` 3.4.0](https://modelviewer.dev/) (Web Component via CDN) |
 
+Demo images and the sample 3D model in the mock data come from third-party public sources (Unsplash, DiceBear, Khronos glTF samples) and are used for demonstration only.
+
 ## 📂 Project Structure
 
 ```
